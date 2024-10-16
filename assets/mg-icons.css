@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'mg-icons';
+  src:  url('fonts/mg-icons.eot?fpg1ij');
+  src:  url('fonts/mg-icons.eot?fpg1ij#iefix') format('embedded-opentype'),
+    url('fonts/mg-icons.ttf?fpg1ij') format('truetype'),
+    url('fonts/mg-icons.woff?fpg1ij') format('woff'),
+    url('fonts/mg-icons.svg?fpg1ij#mg-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="mg-icon-"], [class*=" mg-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'mg-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mg-icon-eye:before {
+  content: "\e90a";
+}
+.mg-icon-eye-blocked:before {
+  content: "\e90b";
+}
+.mg-icon-plus3:before {
+  content: "\e908";
+}
+.mg-icon-touch:before {
+  content: "\e909";
+}
+.mg-icon-arrow-down2:before {
+  content: "\e906";
+}
+.mg-icon-arrow-up2:before {
+  content: "\e907";
+}
+.mg-icon-shrink:before {
+  content: "\e902";
+}
+.mg-icon-enlarge:before {
+  content: "\e903";
+}
+.mg-icon-width:before {
+  content: "\e904";
+}
+.mg-icon-tab:before {
+  content: "\e905";
+}
+.mg-icon-bucket:before {
+  content: "\e900";
+}
+.mg-icon-font-size:before {
+  content: "\e901";
+}

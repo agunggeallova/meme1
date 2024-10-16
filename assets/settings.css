@@ -1,0 +1,446 @@
+.MG-form {
+	margin: 0px 20px 0px 0px;
+	display: block;
+}
+	.MG-form .MG-form-row {
+		padding: 36px 20px;
+		display: block;
+		width: 100%; 
+	}
+		.MG-form .MG-form-row:nth-child(odd) {
+		    background: #ebebeb;
+		}
+		.MG-form .MG-form-row:nth-child(even) {
+		    background: #fff;
+		}
+
+		.MG-form .MG-form-row:last-child {
+			border-bottom: 0;
+			background: none;
+		}
+	
+	.MG-form .MG-button-row {
+		background-color: #6b4d7a;
+		margin: 0;
+		padding: 23px 20px;
+		text-align: left;
+		width: 100%;
+		font-family: "Roboto";
+	}
+
+	.MG-form label {
+		cursor: pointer;
+		display: block;
+		font-weight: bold;
+		color: #7f8c8d;
+	}
+		.MG-form .MG-form-row label {
+			float: left;
+			width: 180px;
+			padding: 6px 0;
+			font-weight: 700;
+			font-size: 14px;
+			color: #5f3a71;
+		}
+		.MG-form label .required {
+			color: #f00
+		}
+		
+		.MG-form .MG-form-row .MG-select-wrapper {
+			overflow: hidden;
+		}
+			.MG-form .MG-form-row .MG-select-wrapper label {
+				float: left;
+				display: inline-block;
+				margin-right: 20px;
+				width: 210px;
+				padding: 0;
+				border: 2px solid #ebebeb;
+			}
+				.MG-form .MG-form-row .MG-select-wrapper label:hover {
+					border-color: #fee50e;
+				}
+					.MG-form .MG-form-row .MG-select-wrapper label.select-on {
+						border-color: #fee50e;
+					}
+				.MG-form .MG-form-row .MG-select-wrapper label span {
+					border-bottom: 1px solid #fff;
+					display: block;
+					width: 100%;
+					background: #ebebeb;
+					padding: 5px 0;
+					text-align: center;
+				}
+				.MG-form .MG-form-row .MG-select-wrapper label input {
+					display: none;
+				}
+				.MG-form .MG-form-row .MG-select-wrapper label img {
+					display: block;
+				}
+				
+	.MG-form .MG-form-item {
+		position: relative;
+		margin-left: 180px;
+	}
+		.MG-form .MG-form-item input[type="text"],
+		.MG-form .MG-form-item select,
+		.MG-form .MG-form-item textarea {
+			box-shadow: none;
+			border: 1px solid #e4e4e4;
+			font-family: "Roboto";
+			font-weight: 400;
+			color: #5f3a71;
+			padding: 10px 13px 10px 13px;
+		}
+			.MG-form .MG-form-item select {
+				height: 34px;
+   			 	padding: 5px 8px; 
+			}
+	.MG-form .MG-form-item .MG-form-note {
+		display: block;
+		color: #95819e;
+		font-size: 12px;
+		margin-bottom: 1px;
+		font-style: italic;
+		margin-top: 5px;
+		text-align: left;
+		overflow: hidden;
+		font-family: "Roboto";
+		font-weight: 400;
+		text-overflow: ellipsis;
+	}
+	.MG-form .MG-form-item .MG-font-preview {
+		font-size: 16px;
+		padding: 10px 10px;
+		background: #6b4d7a;
+		color: #fee50e;
+		display: inline-block;
+		font-family: "Roboto";
+		font-style: normal;
+	}
+	.MG_iw #MG_iw-section-content h3 {
+		margin: 10px 0px 5px 0px;
+	}
+		.MG-form .MG-form-item .MG-aff-ids br {
+			margin: 8px 0px 8px 0px;
+		}
+	.MG-form .MG-form-row .MG-typo-wrapper {
+		color: #5f3a71;
+	}
+		.MG-form .MG-form-row .MG-typo-row {
+			vertical-align: top;
+			border: 1px solid #e4e4e4;
+			padding: 10px 20px;
+			margin-bottom: 20px;
+			background-color: #fff;
+		}
+		.MG-form .MG-form-row .MG-typo-row:last-child {
+			margin: 0;
+		}
+		.MG-form .MG-form-row .MG-typo-row .MG-typo-title {
+			border: 1px solid #e4e4e4;
+			padding: 4px 10px;
+			margin-left: 0px;
+			text-transform: uppercase;
+			background: #e4e4e4;
+		}
+
+		.MG-form .MG-form-row .MG-typo-row .wp-color-result {
+			position: relative;
+			top: 8px;
+		}
+		
+		.MG-form .MG-form-row .MG-typo-row .MG-typo-font-size,
+		.MG-form .MG-form-row .MG-typo-row .MG-typo-font-weight,
+		.MG-form .MG-form-row .MG-typo-row .MG-typo-font-color,
+		.MG-form .MG-form-row .MG-typo-row .MG-typo-font-family {
+			display: inline-block;
+			margin-right: 20px;
+		}
+		.MG-form .MG-form-row .MG-typo-row .MG-typo-font-preview {
+			display: inline-block;
+			border: 1px solid #a997b2;
+			min-width: 200px;
+			padding: 5px 15px;
+			background: #fff;
+			margin-bottom: -14px;
+		}
+		.MG-form .MG-form-row .MG-typo-row .MG-typo-font-color {
+			position: relative;
+		}
+		.MG-form .MG-form-row .MG-typo-row .MG-typo-font-color .wp-picker-holder {
+			position: absolute;
+			left: 0;
+			top: 100%;
+			width: 100%;
+			z-index: 999;
+		}
+		.MG-form .MG-form-row .MG-typo-row .MG-typo-font-color .wp-color-result.wp-picker-open {
+			
+		}
+		.MG-form .MG-form-row .MG-typo-row .MG-typo-font-color .wp-picker-input-wrap input[type="text"] {
+			width: 80px;
+			padding: 2px 10px;
+		}
+
+		.MG-form .MG-form-row .MG-typo-row .MG-typo-font-advance {
+			width: 100%;
+			border: 1px solid red;
+			margin-top: 10px;
+		}
+
+	.MG-font-select {
+	    font-size: 16px;
+	    width: 210px;
+	    position: relative;
+	    display: inline-block;
+	    zoom: 1;
+	    *display: inline;
+	}
+
+	.MG-font-select .fs-drop {
+	    background: #fff;
+	    border: 1px solid #aaa;
+	    border-top: 0;
+	    position: absolute;
+	    top: 29px;
+	    left: 0;
+	    -webkit-box-shadow: 0 4px 5px rgba(0,0,0,.15);
+	    -moz-box-shadow     : 0 4px 5px rgba(0,0,0,.15);
+	    -o-box-shadow         : 0 4px 5px rgba(0,0,0,.15);
+	    box-shadow                : 0 4px 5px rgba(0,0,0,.15);
+	    z-index: 999;
+	}
+
+	.MG-font-select > a {
+	    background-color: #fff;
+	    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eeeeee), color-stop(0.5, white));
+	    background-image: -webkit-linear-gradient(center bottom, #eeeeee 0%, white 50%);
+	    background-image: -moz-linear-gradient(center bottom, #eeeeee 0%, white 50%);
+	    background-image: -o-linear-gradient(top, #eeeeee 0%,#ffffff 50%);
+	    background-image: -ms-linear-gradient(top, #eeeeee 0%,#ffffff 50%);
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 );
+	    background-image: linear-gradient(top, #eeeeee 0%,#ffffff 50%);
+	    -webkit-border-radius: 4px;
+	    -moz-border-radius     : 4px;
+	    border-radius                : 4px;
+	    -moz-background-clip     : padding;
+	    -webkit-background-clip: padding-box;
+	    background-clip                : padding-box;
+	    border: 1px solid #aaa;
+	    display: block;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    position: relative;
+	    height: 26px;
+	    line-height: 26px;
+	    padding: 0 0 0 8px;
+	    color: #444;
+	    text-decoration: none;
+	}
+
+	.MG-font-select > a span {
+	    margin-right: 26px;
+	    display: block;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    line-height: 1.8;
+	    -o-text-overflow: ellipsis;
+	    -ms-text-overflow: ellipsis;
+	    text-overflow: ellipsis;
+	    cursor: pointer;
+	}
+
+	.MG-font-select > a div {
+	    -webkit-border-radius: 0 4px 4px 0;
+	    -moz-border-radius     : 0 4px 4px 0;
+	    border-radius                : 0 4px 4px 0;
+	    -moz-background-clip     : padding;
+	    -webkit-background-clip: padding-box;
+	    background-clip                : padding-box;
+	    background: #ccc;
+	    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ccc), color-stop(0.6, #eee));
+	    background-image: -webkit-linear-gradient(center bottom, #ccc 0%, #eee 60%);
+	    background-image: -moz-linear-gradient(center bottom, #ccc 0%, #eee 60%);
+	    background-image: -o-linear-gradient(bottom, #ccc 0%, #eee 60%);
+	    background-image: -ms-linear-gradient(top, #cccccc 0%,#eeeeee 60%);
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#eeeeee',GradientType=0 );
+	    background-image: linear-gradient(top, #cccccc 0%,#eeeeee 60%);
+	    border-left: 1px solid #aaa;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    display: block;
+	    height: 100%;
+	    width: 18px;
+	}
+
+	.MG-font-select > a div b {
+	    background: url('images/fs-sprite.png') no-repeat 0 1px;
+	    display: block;
+	    width: 100%;
+	    height: 100%;
+	    cursor: pointer;
+	}
+
+	.MG-font-select .fs-drop {
+	    -webkit-border-radius: 0 0 4px 4px;
+	    -moz-border-radius     : 0 0 4px 4px;
+	    border-radius                : 0 0 4px 4px;
+	    -moz-background-clip     : padding;
+	    -webkit-background-clip: padding-box;
+	    background-clip                : padding-box;
+	}
+
+	.MG-font-select .fs-results {
+	    margin: 0 4px 4px 0;
+	    max-height: 190px;
+	    width: 200px;
+	    padding: 0 0 0 4px;
+	    position: relative;
+	    overflow-x: hidden;
+	    overflow-y: auto;
+	}
+
+	.MG-font-select .fs-results li {
+	    line-height: 80%;
+	    padding: 7px 7px 8px;
+	    margin: 0;
+	    list-style: none;
+	    font-size: 18px;
+	}
+
+	.MG-font-select .fs-results li.active {
+	    background: #3875d7;
+	    color: #fff;
+	    cursor: pointer;
+	}
+	.MG-font-select .fs-results li em {
+	    background: #feffde;
+	    font-style: normal;
+	}
+
+	.MG-font-select .fs-results li.active em {
+	    background: transparent;
+	}
+
+	.MG-font-select-active > a {
+	    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.3);
+	    -moz-box-shadow     : 0 0 5px rgba(0,0,0,.3);
+	    -o-box-shadow         : 0 0 5px rgba(0,0,0,.3);
+	    box-shadow                : 0 0 5px rgba(0,0,0,.3);
+	    border: 1px solid #5897fb;
+	}
+
+	.MG-font-select-active > a {
+	    border: 1px solid #aaa;
+	    -webkit-box-shadow: 0 1px 0 #fff inset;
+	    -moz-box-shadow     : 0 1px 0 #fff inset;
+	    -o-box-shadow         : 0 1px 0 #fff inset;
+	    box-shadow                : 0 1px 0 #fff inset;
+	    background-color: #eee;
+	    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, white), color-stop(0.5, #eeeeee));
+	    background-image: -webkit-linear-gradient(center bottom, white 0%, #eeeeee 50%);
+	    background-image: -moz-linear-gradient(center bottom, white 0%, #eeeeee 50%);
+	    background-image: -o-linear-gradient(bottom, white 0%, #eeeeee 50%);
+	    background-image: -ms-linear-gradient(top, #ffffff 0%,#eeeeee 50%);
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 );
+	    background-image: linear-gradient(top, #ffffff 0%,#eeeeee 50%);
+	    -webkit-border-bottom-left-radius : 0;
+	    -webkit-border-bottom-right-radius: 0;
+	    -moz-border-radius-bottomleft : 0;
+	    -moz-border-radius-bottomright: 0;
+	    border-bottom-left-radius : 0;
+	    border-bottom-right-radius: 0;
+	}
+
+	.MG-font-select-active > a div {
+	    background: transparent;
+	    border-left: none;
+	}
+
+	.MG-font-select-active > a div b {
+	    background-position: -18px 1px;
+	}
+
+	.MG-upload-box-wrapper {
+		display: inline-block; 
+	}
+		.MG-upload-box-wrapper .MG-upload-image {
+			width: 80px;
+			height: 80px;
+			background: #f2f2f2;
+			border: 1px solid #9299a0;
+			padding: 2px;
+			margin-bottom: 10px;
+			position: relative;
+		}
+			.MG-upload-box-wrapper .MG-upload-image:after {
+				position: absolute;
+				top: 40%;
+				left: 0;
+				right: 0;
+				display: block;
+				content: "No Image";
+				text-align: center;
+				color: #c0c5ca;
+				z-index: 0;
+			}
+				.MG-upload-box-wrapper .MG-upload-image img {
+					width: 100% !important;
+					height: auto !important;
+					position: relative;
+					z-index: 10;
+				}
+				.MG-upload-box-wrapper .MG-btn-upload-delete {
+					color: #fff;
+					margin-left: 10px;
+				}
+
+	.MG-switch-field {
+		margin-top: 5px;
+	}
+	.MG-switch-field input {
+		display: none;
+	}
+
+	body .MG-switch-field label {
+		display: inline-block !important;
+		background-color: #f2f2f2;
+		color: #5f3a71;
+		font-size: 11px !important;
+		font-weight: normal !important;
+		padding: 6px 7px !important;;
+		box-sizing: border-box;
+		-webkit-transition: all 0.1s ease-in-out;
+		-moz-transition:    all 0.1s ease-in-out;
+		-ms-transition:     all 0.1s ease-in-out;
+		-o-transition:      all 0.1s ease-in-out;
+		transition:         all 0.1s ease-in-out;
+		border: 1px solid #dadada;
+		border-right: none;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.MG-switch-field label:hover {
+		cursor: pointer !important;
+		background-color: #dadada;
+	}
+
+	.MG-switch-field input:checked + label {
+		background-color: #fee50e;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		font-weight: bold !important;
+	}
+
+	.MG-switch-field label:first-of-type {
+		border-radius: 4px 0 0 4px;
+	}
+
+	.MG-switch-field label:last-of-type {
+		border-radius: 0 4px 4px 0;
+		border-right: 1px solid #dadada;
+	}
