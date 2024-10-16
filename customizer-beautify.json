@@ -1,0 +1,471 @@
+{
+	".mg-container .mg-generator": {
+		"panels": {
+			"margin": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-container a.mg-b-invert": {
+		"position": {
+			"where": "right",
+			"offsetX": "130",
+			"offsetY": "0"
+		},
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-container .mg-meme-name h4": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-container .mg-carousel-holder h3": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-container .mg-carousel-holder #mg-carousel .owl-controls .owl-buttons div": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	"#mg-carousel-related .owl-controls .owl-buttons div": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-container .mg-carousel-holder .mg-meme-related #mg-carousel-related .owl-controls .owl-buttons div": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+
+	".mg-container .mg-carousel-holder #mg-carousel .owl-controls .owl-buttons .mg-view-all-btn": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	"#mg-options i": {
+		"panels": {
+			"text": "true" 
+			 
+		}
+	},
+
+	"#mg-options span": {
+		"position": {
+			"where": "right",
+			"offsetX": "60",
+			"offsetY": "0"
+		},
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-container .mg-meme-options .mg-text-boxes .mg-text-box": {
+		"position": {
+			"where": "right",
+			"offsetX": "70",
+			"offsetY": "0"
+		},
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-container .mg-meme-options .mg-text-options-box .mg-text-options select, .mg-container .mg-meme-options .mg-text-options-box .mg-text-options input[type='number'] ": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-container .mg-meme-options .mg-text-options-box .mg-text-options label": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-meme-related h2": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	"a.mg-author-url": {
+		"panels": {
+			"text": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-meme-detail .mg-social-share span": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-meme-detail .mg-social-share a.mg-facebook": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-meme-detail .mg-social-share a.mg-google-plus": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-meme-detail .mg-social-share a.mg-pinterest": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-meme-detail .mg-meme-detail-container .mg-meme-image": {
+		"panels": {
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-meme-detail .mg-embed-codes": {
+		"position": {
+			"where": "right",
+			"offsetX": "-10",
+			"offsetY": "0"
+		},
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-meme-detail .mg-meme-detail-container .mg-meme-controls p span": {
+		"position": {
+			"where": "right",
+			"offsetX": "-10",
+			"offsetY": "0"
+		},
+		"panels": {
+			"text": "true"
+		}
+	},
+
+	".mg-meme-detail .mg-meme-detail-container .mg-meme-controls a.mg-recaption": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-meme-detail .mg-meme-detail-container .mg-meme-controls p": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-container button:not(#mg-options)": {
+		
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	 
+
+	".mg-container .mg-meme-options .mg-text-boxes .mg-text-box input[type='text']": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-container .mg-meme-name": {
+		"position": {
+			"where": "right",
+			"offsetX": "10",
+			"offsetY": "20"
+		},
+		"panels": {
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".meme-generator-resizable .ui-resizable-nw, .meme-generator-resizable .ui-resizable-ne, .meme-generator-resizable .ui-resizable-sw, .meme-generator-resizable .ui-resizable-se, .meme-generator-resizable .ui-resizable-n, .meme-generator-resizable .ui-resizable-s, .meme-generator-resizable .ui-resizable-e, .meme-generator-resizable .ui-resizable-w": {
+		"position": {
+			"where": "left",
+			"offsetX": "40",
+			"offsetY": "-30"
+		},
+		"panels": {
+			"background": "true"
+		}
+	},
+
+	".meme-generator-wrapper .meme-generator-resizable": {
+		"position": {
+			"where": "right",
+			"offsetX": "50",
+			"offsetY": "-30"
+		},
+		"panels": {
+			"border": "true"
+		}
+	},
+
+	".mg-container .mg-lightbox .mg-lightbox-content .mg-close-lightbox, .mg-container .mg-lightbox .mg-lightbox-memes-navs a": {
+			"position": {
+				"where": "right",
+				"offsetX": "130",
+				"offsetY": "-30"
+			},
+			"panels": {
+				"text": "true",
+				"background": "true"
+			}
+		},
+
+	".mg-container .mg-lightbox .mg-lightbox-content h2": {
+			"panels": {
+				"text": "true",
+				"background": "true"
+			}
+		},
+
+	".mg-meme-archive-page h1": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+	"body .mg-meme-archive-page .mg-memes-lists .item": {
+		"panels": {
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-meme-archive-page .mg-memes-lists .item a img": {
+		"position": {
+				"where": "right",
+				"offsetX": "50",
+				"offsetY": "-10"
+			},
+		"panels": {
+			"borderRadius": "true"
+		}
+	},
+
+	".mg-meme-archive-page .mg-memes-lists .item h4": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-meme-archive-page .mg-memes-lists .mg-author": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-meme-archive-page .mg-navigation a": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+	".mg-meme-archive-page .mg-navigation span.current": {
+		"panels": {
+			"text": "true",
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	},
+
+
+	".mg-container .mg-meme-options .mg-text-options-box .mg-text-options": {
+		"position": {
+			"where": "right",
+			"offsetX": "120",
+			"offsetY": "0"
+		},
+		"panels": {
+			"background": "true",
+			"border": "true",
+			"borderRadius": "true",
+			"margin": "true",
+			"other": "true",
+			"padding": "true"
+		}
+	}
+}
